@@ -25,15 +25,15 @@ Answers are in the numerically named `.js` files.
 
 ## Links
 
-[Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
-[http.IncomingMessage](https://nodejs.org/api/http.html#http_class_http_incomingmessage)
-[http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse)
-[Node.js http module](https://nodejs.org/api/http.html)
-[fs.createReadStream](https://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options)
-[Node.js stream module](https://nodejs.org/api/stream.html)
-[response.statusCode](https://nodejs.org/api/http.html#http_response_statuscode)
-[response.statusMessage](https://nodejs.org/api/http.html#http_response_statusmessage)
-[response.setHeader](https://nodejs.org/api/http.html#http_response_setheader_name_value)
+* [Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
+* [http.IncomingMessage](https://nodejs.org/api/http.html#http_class_http_incomingmessage)
+* [http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse)
+* [Node.js http module](https://nodejs.org/api/http.html)
+* [fs.createReadStream](https://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options)
+* [Node.js stream module](https://nodejs.org/api/stream.html)
+* [response.statusCode](https://nodejs.org/api/http.html#http_response_statuscode)
+* [response.statusMessage](https://nodejs.org/api/http.html#http_response_statusmessage)
+* [response.setHeader](https://nodejs.org/api/http.html#http_response_setheader_name_value)
 
 ## License
 
