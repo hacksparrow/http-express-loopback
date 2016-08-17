@@ -1,21 +1,39 @@
-# http-to-loopback
+# http-basic
 
-The sample apps are in the following branches.
+`index.js` is a basic HTTP server in Node.js created using the [http](https://nodejs.org/api/http.html) module.
 
-1. [http-basic](tree/http-basic) - A basic web server with the Node.js [http](https://nodejs.org/api/http.html) module
-2. [express-basic](tree/express-basic) - A basic web server with [Express](https://www.npmjs.com/package/express)
-3. [express-routes](tree/express-routes) - An Express server with routes
-4. [express-middleware](tree/express-middleware) - An Express server with middleware
-5. [express-views](tree/express-views) - An Express server with views
-6. [express-models](tree/express-models) - An Express server with models
-7. [loopback-basic](tree/loopback-basic) - A basic LoopBack server
-8. [loopback-middleware](tree/loopback-middleware]) - A LoopBack server with middleware
-9. [loopback-components](tree/loopback-components) - A LoopBack server with components
-10. [loopback-models](tree/loopback-models) - A LoopBack server with models
-11. [loopback-model-relations](tree/loopback-model-relations) - A LoopBack server with model relations
-12. [loopback-data-validation](tree/loopback-data-validation) - A LoopBack server implementing data validation
-13. [loopback-authentication-authorization](tree/loopback-authentication-authorization) - A LoopBack server implementing authentication and authorization
-14. [loopback-hooks](tree/loopback-hooks) - A LoopBack server with remote and operation hooks
+Run it:
+
+```
+node index.js
+```
+
+## Questions
+
+1. How do we detect the request method (GET, POST, PUT etc.)?
+2. How do we find out the requested URL?
+3. How do we send HTML content?
+4. How do we send an HTML file?
+5. How do we send images, CSS, and other files?
+6. How do we set the HTTP status code?
+7. How do we set HTTP response headers?
+8. How do we create cookies?
+9. How do we read cookies?
+10. How do we create an e-commerce website?
+
+Answers are in the numerically named `.js` files.
+
+## Links
+
+[Anatomy of an HTTP Transaction](https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/)
+[http.IncomingMessage](https://nodejs.org/api/http.html#http_class_http_incomingmessage)
+[http.ServerResponse](https://nodejs.org/api/http.html#http_class_http_serverresponse)
+[Node.js http module](https://nodejs.org/api/http.html)
+[fs.createReadStream](https://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options)
+[Node.js stream module](https://nodejs.org/api/stream.html)
+[response.statusCode](https://nodejs.org/api/http.html#http_response_statuscode)
+[response.statusMessage](https://nodejs.org/api/http.html#http_response_statusmessage)
+[response.setHeader](https://nodejs.org/api/http.html#http_response_setheader_name_value)
 
 ## License
 
