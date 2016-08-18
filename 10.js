@@ -1,1 +1,1 @@
-console.log('😎  By writing even MORE code, of course!')
+console.log('\n  By writing even MORE code, of course! 😎\n')
