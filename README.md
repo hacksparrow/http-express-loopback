@@ -19,7 +19,7 @@ node index.js
 7. How do we set HTTP response headers?
 8. How do we create cookies?
 9. How do we read cookies?
-10. How do we create an e-commerce website?
+10. How do we create a REST-ful API?
 
 Answers are in the numerically named `.js` files.
 
