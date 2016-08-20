@@ -1,0 +1,24 @@
+{
+  "name": "Pet",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": " "
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": " "
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
