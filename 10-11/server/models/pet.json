@@ -1,0 +1,33 @@
+{
+  "name": "Pet",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": " "
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": " "
+    }
+  },
+  "options": {
+    "relations": {
+      "comment": {
+        "type": "hasMany",
+        "model": "Comment",
+        "foreignKey": "commentId"
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
