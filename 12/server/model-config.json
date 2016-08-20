@@ -1,0 +1,14 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ]
+  },
+  "Members": {
+    "dataSource": "db",
+    "public": true
+  }
+}

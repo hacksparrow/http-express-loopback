@@ -1,0 +1,29 @@
+{
+  "name": "Members",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": ""
+    },
+    "password": {
+      "type": "string",
+      "required": true,
+      "default": ""
+    },
+    "rank": {
+      "type": "number",
+      "required": true,
+      "default": ""
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
