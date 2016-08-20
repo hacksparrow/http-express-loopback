@@ -1,0 +1,9 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer"
+  },
+  "./components/version": {},
+  "./components/special": {
+    "mountPath": "/special"
+  }
+}
