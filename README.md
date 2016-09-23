@@ -2,7 +2,9 @@
 
 1. Demonstrate behavior of memory data source
 
-1. Add data source manually
+2. Add data source manually
+
+  Official connectors for: Cloudant, DashDB, DB2, Informix, Memory, MongoDB, MySQL, Oracle, PostgreSQL, Redis, SQL Server, SQLite3.
 
   a. Edit `datasources.json`
 
@@ -25,13 +27,13 @@
 
   d. Add another data source
 
-2. Add data source from the commandline
+3. Add data source from the commandline
 
   ```
   slc loopback:datasource <name>
   ```
 
-3. Switch data source for a model
+4. Switch data source for a model
 
 ## License
 
