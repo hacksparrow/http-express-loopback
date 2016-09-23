@@ -1,8 +1,8 @@
-# user-management
+# User Management
 
-1. Extend base User model
+1. Built-in **User** model
 
-2. Add readers
+2. Add users
 
   ```
   {
@@ -39,16 +39,9 @@
     * Where id === owner
     * Where id !== owner
 
-  ii. Update user details
-
-  ```
-  {
-    "nickName": "Vicky"
-  }
-  ```
-
 5. Logout
 
+6. Extend built-in **User** model and create **reader** model
 
 ## License
 
