@@ -1,38 +1,37 @@
-# Data Modeling
+# Data Sources
 
-1. Create models manually
+1. Demonstrate behavior of memory data source
 
-  a. Create **pet** model `.js` and `.json` files
-  b. Update `model-config.json`
-  c. Add pets
+1. Add data source manually
+
+  a. Edit `datasources.json`
 
     ```
-      {
-        "name": "Neo",
-        "type": "cat",
-        "age": 1,
-        "password": "623564524b243"
+      "localmongo": {
+        "host": "192.168.1.2",
+        "port": 9090,
+        "url": "mongodb://username:password@hostname:port/database",
+        "database": "mydb",
+        "password": "pass",
+        "name": "lol",
+        "user": "admin",
+        "connector": "mongodb"
       }
     ```
 
-    ```
-      {
-        "name": "Bud",
-        "type": "dog",
-        "age": 3,
-        "password": "98347nk34k2342"
-      }
-    ```
-    d. List pets
-    e. Hide `password` field
+  b. Configure **pet** model to use _localmongo_
 
-2. Create models from the commandline
+  c. Demonstrate proof of use of new data source
+
+  d. Add another data source
+
+2. Add data source from the commandline
 
   ```
-  slc loopback:model <name>
+  slc loopback:datasource <name>
   ```
 
-3. Hide built-in **User** model
+3. Switch data source for a model
 
 ## License
 
