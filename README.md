@@ -1,12 +1,54 @@
-# http-express-loopback
+# user-management
 
-Code samples for demonstrating the evolution of a framework from basic `http` module to Express to LoopBack.
+1. Extend base User model
 
-The sample apps are in the following branches.
+2. Add readers
 
-1. [http](https://github.com/hacksparrow/http-to-loopback/tree/http) - Web server built usind the [http](https://nodejs.org/api/http.html) module
-2. [express](https://github.com/hacksparrow/http-to-loopback/tree/express) - Web server built using the [Express](https://www.npmjs.com/package/express) framework
-14. [loopback](https://github.com/hacksparrow/http-to-loopback/tree/loopback) - Web server built using the [LoopBack](https://www.npmjs.com/package/loopback) framework
+```
+{
+  "nickName": "Nicky",
+  "username": "yolodude",
+  "email": "yolo@swag.org",
+  "password": "c2345c24553435"
+}
+```
+
+```
+{
+  "nickName": "Mickey",
+  "username": "mick",
+  "email": "mick@jagger.org",
+  "password": "4545534c53534c5"
+}
+```
+
+3. Login
+
+```
+{
+  "username": "yolodude",
+  "email": "yolo@swag.org",
+  "password": "c2345c24553435"
+}
+```
+
+4. Acess Control
+
+1. Show user
+
+  * Where id === owner
+  * Where id !== owner
+
+2. Update user
+
+```
+{
+  "nickName": "Vicky"
+}
+```
+
+5. Logout
+
 
 ## License
 
