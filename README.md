@@ -1,12 +1,38 @@
-# http-express-loopback
+# Data Modeling
 
-Code samples for demonstrating the evolution of a framework from basic `http` module to Express to LoopBack.
+1. Create models manually
 
-The sample apps are in the following branches.
+  a. Create **pet** model `.js` and `.json` files
+  b. Update `model-config.json`
+  c. Add pets
 
-1. [http](https://github.com/hacksparrow/http-to-loopback/tree/http) - Web server built usind the [http](https://nodejs.org/api/http.html) module
-2. [express](https://github.com/hacksparrow/http-to-loopback/tree/express) - Web server built using the [Express](https://www.npmjs.com/package/express) framework
-14. [loopback](https://github.com/hacksparrow/http-to-loopback/tree/loopback) - Web server built using the [LoopBack](https://www.npmjs.com/package/loopback) framework
+    ```
+      {
+        "name": "Neo",
+        "type": "cat",
+        "age": 1,
+        "password": "623564524b243"
+      }
+    ```
+
+    ```
+      {
+        "name": "Bud",
+        "type": "dog",
+        "age": 3,
+        "password": "98347nk34k2342"
+      }
+    ```
+    d. List pets
+    e. Hide `password` field
+
+2. Create models from the commandline
+
+  ```
+  slc loopback:model <name>
+  ```
+
+3. Hide built-in **User** model
 
 ## License
 
