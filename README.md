@@ -1,7 +1,6 @@
 # user-management
 
 1. Extend base User model
-
 2. Add readers
 
 ```
@@ -21,7 +20,6 @@
   "password": "4545534c53534c5"
 }
 ```
-
 3. Login
 
 ```
@@ -31,7 +29,6 @@
   "password": "c2345c24553435"
 }
 ```
-
 4. Acess Control
 
   i. Show user details
@@ -46,7 +43,6 @@
     "nickName": "Vicky"
   }
   ```
-
 5. Logout
 
 
