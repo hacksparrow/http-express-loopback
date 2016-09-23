@@ -5,8 +5,7 @@
     ]
   },
   "User": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "db"
   },
   "AccessToken": {
     "dataSource": "db",
@@ -24,7 +23,7 @@
     "dataSource": "db",
     "public": false
   },
-  "reader": {
+  "pet": {
     "dataSource": "db"
   }
 }

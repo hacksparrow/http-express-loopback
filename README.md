@@ -1,54 +1,85 @@
-# user-management
+# Access Control
 
-1. Extend base User model
+1. Create new model **pet**
 
-2. Add readers
+2. Acess Control
 
-  ```
-  {
-    "nickName": "Nicky",
-    "username": "yolodude",
-    "email": "yolo@swag.org",
-    "password": "c2345c24553435"
-  }
-  ```
+  i. Add pets
 
-  ```
-  {
-    "nickName": "Mickey",
-    "username": "mick",
-    "email": "mick@jagger.org",
-    "password": "4545534c53534c5"
-  }
-  ```
+    ```
+    { "name": "Neo", "type": "cat" }
+    ```
 
-3. Login
+    ```
+    { "name": "Bud", "type": "dog" }
+    ```
 
-  ```
-  {
-    "username": "yolodude",
-    "email": "yolo@swag.org",
-    "password": "c2345c24553435"
-  }
-  ```
+  ii. List pets
 
-4. Acess Control
+  iii. Delete pet
 
-  i. Show user details
+  iv. Configure ACL for **pets** model
 
-    * Where id === owner
-    * Where id !== owner
+    ```
+    "acls": [
+      {
+        "principalType": "ROLE",
+        "principalId": "$everyone",
+        "permission": "DENY"
+      },
+      {
+        "principalType": "ROLE",
+        "principalId": "$authenticated",
+        "permission": "ALLOW",
+        "property": "create"
+      },
+      {
+        "principalType": "ROLE",
+        "principalId": "$authenticated",
+        "permission": "ALLOW",
+        "property": "find"
+      }
+    ],
+    ```
 
-  ii. Update user details
+  v. List pets
 
-  ```
-  {
-    "nickName": "Vicky"
-  }
-  ```
+  vi. Add user
 
-5. Logout
+    ```
+    {
+      "nickName": "Nicky",
+      "username": "yolodude",
+      "email": "yolo@swag.org",
+      "password": "c2345c24553435"
+    }
+    ```
 
+  vii. Login user
+
+    ```
+    {
+      "username": "yolodude",
+      "email": "yolo@swag.org",
+      "password": "c2345c24553435"
+    }
+    ```
+
+  viii. Create pets
+
+  ix. List pets
+
+  x. Delete pet
+
+  xi. Log out user
+
+  xii. List pets
+
+
+## Links
+
+[Controlling data access](https://docs.strongloop.com/display/public/LB/Controlling+data+access)
+[ACL generator](https://docs.strongloop.com/display/public/LB/ACL+generator)
 
 ## License
 

@@ -1,12 +1,15 @@
 {
-  "name": "reader",
-  "base": "User",
+  "name": "pet",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "nickName": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
       "type": "string",
       "required": true
     }
