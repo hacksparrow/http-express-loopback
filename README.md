@@ -34,18 +34,18 @@
 
 4. Acess Control
 
-1. Show user
+  i. Show user details
 
-  * Where id === owner
-  * Where id !== owner
+    * Where id === owner
+    * Where id !== owner
 
-2. Update user
+  ii. Update user details
 
-```
-{
-  "nickName": "Vicky"
-}
-```
+  ```
+  {
+    "nickName": "Vicky"
+  }
+  ```
 
 5. Logout
 
