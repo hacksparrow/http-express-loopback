@@ -1,0 +1,27 @@
+{
+  "name": "pet",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "owner": {
+      "type": "belongsTo",
+      "model": "owner",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

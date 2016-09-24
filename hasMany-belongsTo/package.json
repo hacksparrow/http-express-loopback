@@ -1,5 +1,5 @@
 {
-  "name": "user-management",
+  "name": "has-many",
   "version": "1.0.0",
   "description": "Code samples for demonstrating the evolution of a framework from basic `http` module to Express to LoopBack.",
   "main": "index.js",
