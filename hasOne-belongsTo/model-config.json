@@ -28,7 +28,6 @@
     "dataSource": "db"
   },
   "pet": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "db"
   }
 }

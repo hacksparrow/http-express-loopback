@@ -1,15 +1,23 @@
 {
   "name": "owner",
-  "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "username": {
+      "type": "string",
+      "required": true
+    }
+  },
   "validations": [],
   "relations": {
     "pets": {
-      "type": "hasMany",
+      "type": "hasOne",
       "model": "pet",
       "foreignKey": ""
     }

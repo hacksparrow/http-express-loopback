@@ -11,16 +11,14 @@
     ```
     {
       "username": "yolodude",
-      "email": "yolo@swag.org",
-      "password": "c2345c24553435"
+      "name": "Yolo Swag"
     }
     ```
 
     ```
     {
       "username": "mick",
-      "email": "mick@jagger.org",
-      "password": "4545534c53534c5"
+      "name": "Mick Jagger"
     }
     ```
 
@@ -29,15 +27,13 @@
     ```
     {
       "name": "Neo",
-      "type": "cat",
-      "memberId": 1
+      "type": "cat"
     }
     ```
     ```
     {
       "name": "Bud",
-      "type": "dog",
-      "memberId": 2
+      "type": "dog"
     }
     ```
 
