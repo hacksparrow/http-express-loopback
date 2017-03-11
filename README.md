@@ -10,9 +10,9 @@
 4. **Ok, so how do we create LoopBack apps?**
 
   ```
-  $ npm install strongloop -g
-  $ slc -v
-  $ slc loopback myapp
+  $ npm install loopback-cli -g
+  $ lb -v
+  $ lb
   ```
 
 5. **Why are we installing `strongloop` instead of `loopback`, and why is the command named `slc`?**
@@ -27,19 +27,19 @@
 
 8. **How do we create models for a LoopBack app?**
 
-	Use the command: `slc loopback:model <modelName>` or manually create the files.
-	
+	Use the command: `lb model <modelName>` or manually create the files.
+
 	* [Defining models](https://docs.strongloop.com/display/public/LB/Defining+models)
 	* [Using built-in models](https://docs.strongloop.com/display/public/LB/Using+built-in+models)
 
 9. **Where are the models stored?**
 
 	Anywhere you want! Just make sure to provide LoopBack the appropriate data source.
-	
-	Use the command:  `slc loopback:datasource` or configure the `datasources.json` file.
-	
+
+	Use the command:  `lb datasource` or configure the `datasources.json` file.
+
 	Official connectors for: Cloudant, DashDB, DB2, Informix, Memory, MongoDB, MySQL, Oracle, PostgreSQL, Redis, SQL Server, SQLite3.
-	
+
 	* [Connecting models to data sources](https://docs.strongloop.com/display/public/LB/Connecting+models+to+data+sources)
 
 10. **Can LoopBack do model relations?**
@@ -67,13 +67,13 @@
 	![YOLO SWAG](./swag.jpg)
 
 	`cd` to a LoopBack app directory and:
-	
+
 	```
 	$ slc loopback:swagger
 	```
 
 	Swagger specification file at http://localhost:3000/explorer/swagger.json.
-	
+
 	* [Sample Swagger file](https://raw.githubusercontent.com/wordnik/swagger-spec/master/examples/v2.0/json/petstore-simple.json)
 	* [Swagger generator](https://docs.strongloop.com/display/public/LB/Swagger+generator)
 
