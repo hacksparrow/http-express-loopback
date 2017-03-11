@@ -15,24 +15,22 @@
   $ lb
   ```
 
-5. **Why are we installing `strongloop` instead of `loopback`, and why is the command named `slc`?**
-
-6. **What are LoopBack middleware?**
+5. **What are LoopBack middleware?**
 
    * [Defining middleware](https://docs.strongloop.com/display/public/LB/Defining+middleware)
 
-7. **What are LoopBack components?**
+6. **What are LoopBack components?**
 
    * [LoopBack components](https://docs.strongloop.com/display/public/LB/LoopBack+components)
 
-8. **How do we create models for a LoopBack app?**
+7. **How do we create models for a LoopBack app?**
 
 	Use the command: `lb model <modelName>` or manually create the files.
 
 	* [Defining models](https://docs.strongloop.com/display/public/LB/Defining+models)
 	* [Using built-in models](https://docs.strongloop.com/display/public/LB/Using+built-in+models)
 
-9. **Where are the models stored?**
+8. **Where are the models stored?**
 
 	Anywhere you want! Just make sure to provide LoopBack the appropriate data source.
 
@@ -42,34 +40,34 @@
 
 	* [Connecting models to data sources](https://docs.strongloop.com/display/public/LB/Connecting+models+to+data+sources)
 
-10. **Can LoopBack do model relations?**
+9. **Can LoopBack do model relations?**
 
 	Yes, it can do BelongsTo, HasOne, HasMany, HasManyThrough, HasAndBelongsToMany, Polymorphic, Embedded relations.
 
  * [Creating model relations](https://docs.strongloop.com/display/public/LB/Creating+model+relations)
 
-11. **Let's see an example of model relations.**
+10. **Let's see an example of model relations.**
 
-12. **LoopBack does a lot of work for me, can it also validate input for me?**
+11. **LoopBack does a lot of work for me, can it also validate input for me?**
 
 	* [Validating model data](https://docs.strongloop.com/display/public/LB/Validating+model+data)
 
-13. **I wish LoopBack also implemented authentication and authorization, and access control for me.**
+12. **I wish LoopBack also implemented authentication and authorization, and access control for me.**
 
-	Use the command: `slc loopback:acl` or manually configure the model's `.json` file.
+	Use the command: `lb acl` or manually configure the model's `.json` file.
 
 	* [Authentication, authorization, and permissions](https://docs.strongloop.com/display/public/LB/Authentication%2C+authorization%2C+and+permissions)
 
-14. **Is LoopBack secure?**
+13. **Is LoopBack secure?**
 
-15. **What is Swagger? Is it related to "_YOLO SWAG_" in any way or manner?**
+14. **What is Swagger? Is it related to "_YOLO SWAG_" in any way or manner?**
 
 	![YOLO SWAG](./swag.jpg)
 
 	`cd` to a LoopBack app directory and:
 
 	```
-	$ slc loopback:swagger
+	$ lb swagger
 	```
 
 	Swagger specification file at http://localhost:3000/explorer/swagger.json.
@@ -77,7 +75,7 @@
 	* [Sample Swagger file](https://raw.githubusercontent.com/wordnik/swagger-spec/master/examples/v2.0/json/petstore-simple.json)
 	* [Swagger generator](https://docs.strongloop.com/display/public/LB/Swagger+generator)
 
-16. **LoopBack is just what I needed in my life, where can I learn more about it?**
+15. **LoopBack is just what I needed in my life, where can I learn more about it?**
 
 	[https://docs.strongloop.com](https://docs.strongloop.com)
 
